@@ -1,0 +1,12 @@
+.features .fas{
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.features .btn{
+    border-radius: 89px 89px 89px 89px;
+-moz-border-radius: 89px 89px 89px 89px;
+-webkit-border-radius: 89px 89px 89px 89px;
+border: 0px dotted #000000;
+}
+

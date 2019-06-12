@@ -1,0 +1,23 @@
+{
+  "name": "My second Bootstrap Project",
+  "authors": [
+    "CuauhtliAmbriz <cuauhtli.ambriz@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "Bootstrap Framework",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "fontawesome": "^5.8.2",
+    "jquery": "^3.4.1"
+  }
+}
