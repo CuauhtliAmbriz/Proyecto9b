@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "catfan/medoo",
-            "version": "v1.5.7",
+            "version": "v1.7.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "8d90cba0e8ff176028847527d0ea76fe41a06ecf"
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/8d90cba0e8ff176028847527d0ea76fe41a06ecf",
-                "reference": "8d90cba0e8ff176028847527d0ea76fe41a06ecf",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
                 "ext-pdo_oci8": "For Oracle version 8 database",
                 "ext-pdo_pqsql": "For PostgreSQL database",
                 "ext-pdo_sqlite": "For SQLite database",
-                "ext-pdo_sqlsrv": "For MSSQL database"
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
             },
             "type": "framework",
             "autoload": {
@@ -49,10 +49,11 @@
                     "email": "angel@catfan.me"
                 }
             ],
-            "description": "The lightest PHP database framework to accelerate development",
+            "description": "The lightweight PHP database framework to accelerate development",
             "homepage": "https://medoo.in",
             "keywords": [
                 "database",
+                "database library",
                 "lightweight",
                 "mariadb",
                 "mssql",
@@ -63,7 +64,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2018-06-14T18:59:08+00:00"
+            "time": "2020-02-11T08:20:42+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -94,6 +95,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -118,12 +120,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "FastRoute\\": "src/"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -370,5 +372,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
